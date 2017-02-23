@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inbox"
+            android:title="Inbox"
+            android:icon="@drawable/ic_menu_inbox"/>
+        <item
+            android:id="@+id/smsBanking"
+            android:title="SMS Banking"
+            android:icon="@drawable/ic_menu_banking"/>
+        <item
+            android:id="@+id/promosi"
+            android:title="Promosi"
+            android:icon="@drawable/ic_menu_promosi"/>
+        <item
+            android:id="@+id/operator"
+            android:title="Operator"
+            android:icon="@drawable/ic_menu_operator"/>
+        <item
+            android:id="@+id/penipuan"
+            android:title="Penipuan"
+            android:icon="@drawable/ic_menu_penipuan"/>
+        <item
+            android:id="@+id/unknown"
+            android:title="Tidak diketahui"
+            android:icon="@drawable/ic_menu_unknown"/>
+        <item
+            android:id="@+id/blacklist"
+            android:title="Blacklist"
+            android:icon="@drawable/ic_menu_blacklist"/>
+        <item
+            android:id="@+id/trending"
+            android:title="Trending"
+            android:icon="@drawable/ic_menu_trend"/>
+        <item
+            android:id="@+id/refresh"
+            android:title="Perbarui Data"
+            android:icon="@drawable/ic_menu_perbaruidata"/>
+    </group>
+</menu>

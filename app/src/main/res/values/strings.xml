@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Berpesan</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="title_activity_login2">Masuk</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (opsional)</string>
+    <string name="action_sign_in">Masuk atau Daftar</string>
+    <string name="action_sign_in_short">Masuk</string>
+    <string name="error_invalid_email">Alamat email tidak benar</string>
+    <string name="error_invalid_password">Password terlalu pendek</string>
+    <string name="error_incorrect_password">Password tidak benar</string>
+    <string name="error_field_required">Bagian ini harus diisi</string>
+    <string name="permission_rationale">"Izin kontak diperlukan untuk menyediakan penyelesaian email."
+    </string>
+    <string name="drawer_open">Buka</string>
+    <string name="drawer_close">Tutup</string>
+</resources>

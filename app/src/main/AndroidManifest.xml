@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.berpesan.berpesan">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Berpesan"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PromosiActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Promosi"/>
+        <activity android:name=".SMSBankingActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="SMS Banking"/>
+        <activity android:name=".OperatorActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Operator Telepon"/>
+        <activity android:name=".PenipuanActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Penipuan"/>
+        <activity android:name=".UnknownActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Tidak diketahui"/>
+        <activity android:name=".TrendingActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Trending"/>
+        <activity android:name=".RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Daftar"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".LoginActivity"
+            android:label="Masuk"/>
+        <activity android:name=".BlacklistActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Blacklist"></activity>
+    </application>
+</manifest>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    tools:context="com.berpesan.activity.TambahKontak"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Nama Kontak" />
+
+            <EditText
+                android:id="@+id/et_mobile_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_name"
+                android:inputType="phone"
+                android:hint="Nomor Telepon" />
+
+            <Button
+                android:id="@+id/btn_add"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/white"
+                android:layout_below="@id/et_mobile_phone"
+                android:text="Simpan Kontak" />
+
+        </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+

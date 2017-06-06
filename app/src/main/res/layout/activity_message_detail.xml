@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.berpesan.activity.MessageDetail">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="@dimen/margin_10dp"
+        android:layout_marginRight="@dimen/margin_10dp"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="219dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvMsg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="12"
+                    android:layout_margin="5sp"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5sp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lineraLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom|end"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/pesanReply"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.80"
+            android:ems="10"
+            android:gravity="top"
+            android:hint="Masukkan pesan"
+            android:inputType="textMultiLine" />
+
+        <ImageButton
+            android:id="@+id/imageButtonReply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="@dimen/margin_10dp"
+            android:layout_weight="0.20"
+            android:padding="@dimen/margin_20dp"
+            android:src="@drawable/ic_menu_send" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

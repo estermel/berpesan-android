@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/hapuspesan"
+        android:title="Hapus Pesan"
+        android:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/teruskanpesan"
+        android:title="Teruskan Pesan"
+        android:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/simpankontak"
+        android:title="Simpan Kontak"
+        android:showAsAction="never"
+        android:visible="false">
+    </item>
+
+</menu>

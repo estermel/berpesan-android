@@ -27,4 +27,5 @@
     <string name="blacklist_number">Nomor Telepon : %1$s</string>
 
     <string name="hapuspesan_dialog">Apakah Anda yakin akan menghapus sms ini?</string>
+
 </resources>

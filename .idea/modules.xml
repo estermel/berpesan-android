@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Berpesan.iml" filepath="$PROJECT_DIR$/Berpesan.iml" />
+      <module fileurl="file://D:\Ester\ANDROID\berpesan-android\Berpesan.iml" filepath="D:\Ester\ANDROID\berpesan-android\Berpesan.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/berpesan-android.iml" filepath="$PROJECT_DIR$/berpesan-android.iml" />
     </modules>
   </component>
 </project>

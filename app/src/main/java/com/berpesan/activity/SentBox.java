@@ -38,11 +38,11 @@ public class SentBox extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sent_box);
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         initNavigationDrawer();
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.create);
+        FloatingActionButton fab = findViewById(R.id.create);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -50,8 +50,8 @@ public class SentBox extends AppCompatActivity {
             }
         });
 
-        pengirim = (TextView) findViewById(R.id.sender);
-        isipesan = (TextView) findViewById(R.id.content);
+        pengirim = findViewById(R.id.sender);
+        isipesan = findViewById(R.id.content);
 
         displayListView();
 
@@ -278,7 +278,7 @@ public class SentBox extends AppCompatActivity {
             }
         });
         View header = navigationView.getHeaderView(0);
-        drawerLayout = (DrawerLayout)findViewById(R.id.drawer);
+        drawerLayout = findViewById(R.id.drawer);
 
         ActionBarDrawerToggle actionBarDrawerToggle = new ActionBarDrawerToggle(this,drawerLayout,toolbar,R.string.drawer_open,R.string.drawer_close){
 
